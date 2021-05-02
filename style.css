@@ -1,0 +1,23 @@
+:root {
+  --bg-color: hsl(0, 0%, 20%);
+  --font-color: hsl(0, 0%, 100%);
+  --accent-color: hsl(142, 90%, 61%);
+}
+
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
